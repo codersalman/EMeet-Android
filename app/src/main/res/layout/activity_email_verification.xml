@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroActivity"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@drawable/header">
+
+    <RelativeLayout
+
+        android:layout_width="400dp"
+        android:layout_height="194dp"
+        android:layout_weight="1"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="48dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="Verify your E-mail"
+                android:textColor="@color/white"
+                android:textSize="36dp" />
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:text="We have sent verification email to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:textAppearance="@style/FontPath.SemiBold"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@android:color/white"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>      </LinearLayout>
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="584dp"
+        android:layout_weight="3"
+        android:background="@drawable/card_background"
+        android:elevation="36dp">
+
+
+        <ImageView
+            android:id="@+id/imageButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/button"
+            android:elevation="10dp"
+            android:rotation="180"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/ivLogo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ivLogo"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="84dp"
+            android:background="@drawable/button"
+            android:elevation="10dp"
+            android:rotation="180"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivLogo" />
+
+
+        <ImageView
+            android:id="@+id/igbgft"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_alignParentBottom="true"
+            android:rotation="360"
+
+            android:rotationX="180"
+            android:scaleType="fitXY"
+            android:src="@drawable/header"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="304dp"
+            android:layout_height="243dp"
+            android:layout_marginTop="40dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.097"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:srcCompat="@drawable/id_very_email" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@id/btnVerify"
+            android:layout_width="271dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="72dp"
+            android:elevation="8.0dip"
+            android:gravity="center"
+            android:stateListAnimator="@null"
+            android:text="Verify "
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15.0sp"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="8.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivLogo"
+            app:layout_constraintVertical_bias="0.137"
+            app:rippleColor="@color/colorPrimaryTrans" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

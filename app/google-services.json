@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "181503185445",
+    "firebase_url": "https://fir-a9af8.firebaseio.com",
+    "project_id": "fir-a9af8",
+    "storage_bucket": "fir-a9af8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181503185445:android:94d03f96e6e57cfeb5a5cc",
+        "android_client_info": {
+          "package_name": "com.caresofts.edumeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181503185445-uqtfg7ikbphg9flg3sr955mfmbohdqva.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.caresofts.edumeet",
+            "certificate_hash": "fca2937e41186c0d001cf2091815b3a261c149bb"
+          }
+        },
+        {
+          "client_id": "181503185445-ra6n8btsdfub57l3a80s25v9a4vppilk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6ljOgbbwdoBuDK8mATtEXmdMC-3JoJTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181503185445-ra6n8btsdfub57l3a80s25v9a4vppilk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181503185445:android:4e18344a44b8aa3bb5a5cc",
+        "android_client_info": {
+          "package_name": "com.caresofts.jadhavclasses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181503185445-385rp3ck23hagk2vaja5i1ppaenf1ha3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.caresofts.jadhavclasses",
+            "certificate_hash": "a09aa3d5a180c351ee92c13d7a1d8489fe0a6e96"
+          }
+        },
+        {
+          "client_id": "181503185445-62q0var0uhplmevqbkcbmctls6v2394q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.caresofts.jadhavclasses",
+            "certificate_hash": "de8aeb50212939ba12dd21ffe081f250cde07557"
+          }
+        },
+        {
+          "client_id": "181503185445-ra6n8btsdfub57l3a80s25v9a4vppilk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6ljOgbbwdoBuDK8mATtEXmdMC-3JoJTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181503185445-ra6n8btsdfub57l3a80s25v9a4vppilk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

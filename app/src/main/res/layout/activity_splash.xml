@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:context=".SplashActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/txtVersionName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/igbgft"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="193dp"
+        android:layout_marginBottom="29dp"
+        android:gravity="center"
+        android:text="@string/version"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="227dp"
+        android:layout_height="86dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="143dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:text="Designed By"
+            android:textColor="@color/primaryText"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="130dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_coder_salman_g" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="220dp"
+        android:layout_height="153dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="548dp"
+        android:background="@drawable/ic_app_logo"
+        android:fitsSystemWindows="true"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="464dp"
+        android:layout_marginEnd="-7dp"
+        android:layout_marginBottom="98dp"
+        android:fontFamily="@font/seg_ui_semibold"
+        android:gravity="center"
+        android:text="A meeting for a better future...."
+        android:textColor="@color/primaryText"
+        android:textSize="16sp" />
+
+</RelativeLayout>
